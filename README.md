@@ -28,7 +28,8 @@ We can rewrite the questions asked using the concepts above and generalise them:
 
 Regardless of the information represented by the metric, by observing its temporal behaviour we will find the relationship between a quantitative value and a unit of time. For example: number of sales in a period of 1 month. In this format, we call the data time series $S$ which is defined as the tuples $(t, x)$ and are defined as follows:
 
-$  S = \{(d,x) \in \mathcal{D} \times \mathcal{X}: \mathcal{D} \text{ é o conjunto do tempo e } \mathcal{X} \text{ é o conjunto da medida} \} $
-
+```math
+S = \{  (t,x) \in \mathcal{T} \times \mathcal{X}: \mathcal{T} \text{ is time set  and } \mathcal{X} \text{ is the metric set} \} $$
+```
 
 
