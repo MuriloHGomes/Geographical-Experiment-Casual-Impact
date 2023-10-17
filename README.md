@@ -16,7 +16,7 @@ First step is define the necessary concepts:
   3. Metric: quantity used to measure the influence of the action on the objective;
   4. Target: geographical region (city, metropolitan region, country, etc) where the action takes place;
 
-Now, lets re-elaborate the problem presented
+Now, lets re-elaborate the problem presented.
 
 ## Problematising
 
@@ -26,6 +26,9 @@ We can rewrite the questions asked using the concepts above and generalise them:
   - Did the impact happend as planned? Did it change during implementation? Did the collection of metrics remain consistent throughout the period?
   - Are the changes observed in the metrics really a consequence of the impact? Were the any changes outside the team's control that could have affected the results?
 
+Regardless of the information represented by the metric, by observing its temporal behaviour we will find the relationship between a quantitative value and a unit of time. For example: number of sales in a period of 1 month. In this format, we call the data time series $S$ which is defined as the tuples $(t, x)$ and are defined as follows:
+
+$  S = \{(d,x) \in \mathcal{D} \times \mathcal{X}: \mathcal{D} \text{ é o conjunto do tempo e } \mathcal{X} \text{ é o conjunto da medida} \} $
 
 
 
