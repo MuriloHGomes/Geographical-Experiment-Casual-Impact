@@ -39,6 +39,20 @@ Once these precautions have been taken, we can use the product [Casual Impact] (
 To carry out this approach, we first need to decide which of the similarity criteria we will use to select the best comparison region. As there are different ways of quantifying the idea of similarity between different types of data, the choice has to be made with the reality of the problem in mind. Therefore, in the case of similarity between time series, we will use the measures of similarity between time series. To learn more about the techniques used to measure similarity, see [Similarity Measures and Dimensionality Reduction Techniques for Time Series Data Mining](https://www.intechopen.com/chapters/39030). 
 
 
+## Results
+
+For the default p-value as $\alpha = 0.05$ and `prior.level.sd = 0.1`, which determines the standard deviation that will be used, as recommended when there are doubts about the stability of the data collection during the event, we have the following results: 
+
+Cidade	| valor-p |	Casual Effect statistically significant? |	Increased value |
+| --------- | ----------- | -------------- | -------------- |
+Fortaleza	|0.07	|no	| +70.17%|
+Belo Horizonte|	0.04|	yes	| +101.26% |
+Curitiba|0.03	|yes|	+114.52% |
+Recife|	0.02|	yes |	+116.86% |
+Porto Alegre	|0.14	| no |	+40.86% |
+Campinas|	0.06|	no |	+74.21% |
+
+
 
 
 
