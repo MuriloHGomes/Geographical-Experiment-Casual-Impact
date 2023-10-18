@@ -32,4 +32,14 @@ Regardless of the information represented by the metric, by observing its tempor
 S = \{  (t,x) \in \mathcal{T} \times \mathcal{X}: \mathcal{T} \text{ is time set  and } \mathcal{X} \text{ is the metric set} \} $$
 ```
 
+If the impact has the expected effect, there will be a visible change in the behaviour of the time series observed from the start of the experiment. But even if the behaviour before and after is visibly different, we need to explain this difference. Because any approach based on the reality of a dynamic system, such as non-linear digital marketing, relies on approximations that are statically established by the relationship between the explanatory variables and the response variable, the model, although accurate under ideal conditions, may fail or be inefficient in the presence of intervening factors.
+
+Once these precautions have been taken, we can use the product [Casual Impact] (https://www.notion.so/075329e5573142e18289df09f2a2bc52?pvs=21) as a consistency analysis tool, because since the target is specific, we can take a region that is similar to the target but has not been impacted. This gives us an approximation of what could have happened to the target if it had not been hit. And using a statistical approach, we can determine whether or not the impact was statistically significant.
+
+To carry out this approach, we first need to decide which of the similarity criteria we will use to select the best comparison region. As there are different ways of quantifying the idea of similarity between different types of data, the choice has to be made with the reality of the problem in mind. Therefore, in the case of similarity between time series, we will use the measures of similarity between time series. To learn more about the techniques used to measure similarity, see [Similarity Measures and Dimensionality Reduction Techniques for Time Series Data Mining](https://www.intechopen.com/chapters/39030). 
+
+
+
+
+
 
