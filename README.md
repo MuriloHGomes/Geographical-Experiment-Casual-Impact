@@ -29,7 +29,7 @@ We can rewrite the questions asked using the concepts above and generalise them:
 Regardless of the information represented by the metric, by observing its temporal behaviour we will find the relationship between a quantitative value and a unit of time. For example: number of sales in a period of 1 month. In this format, we call the data time series $S$ which is defined as the tuples $(t, x)$ and are defined as follows:
 
 ```math
-S = \{  (t,x) \in \mathcal{T} \times \mathcal{X}: \mathcal{T} \text{ is time set  and } \mathcal{X} \text{ is the metric set} \} $$
+S = \{  (t,x) \in \mathcal{T} \times \mathcal{X}: \mathcal{T} \text{ is time set  and } \mathcal{X} \text{ is the metric set} \} 
 ```
 
 If the impact has the expected effect, there will be a visible change in the behaviour of the time series observed from the start of the experiment. But even if the behaviour before and after is visibly different, we need to explain this difference. Because any approach based on the reality of a dynamic system, such as non-linear digital marketing, relies on approximations that are statically established by the relationship between the explanatory variables and the response variable, the model, although accurate under ideal conditions, may fail or be inefficient in the presence of intervening factors.
